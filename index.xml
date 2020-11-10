@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fusion</title>
+    <link>https://luke-1220.github.io/</link>
+    <description>Recent content on Fusion</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 27 Oct 2020 21:38:51 +0900</lastBuildDate>
+    
+	<atom:link href="https://luke-1220.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>このサイトについて</title>
+      <link>https://luke-1220.github.io/about/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://luke-1220.github.io/about/</guid>
+      <description>製作した作品やそのメモなどをまとめています。 一部の記事はQiitaにも同じ内容を投稿しています。</description>
+    </item>
+    
+    <item>
+      <title>お問い合わせ</title>
+      <link>https://luke-1220.github.io/contact/</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://luke-1220.github.io/contact/</guid>
+      <description>お名前 *  メール *   お問い合わせ内容 *    備考      h1{ margin:10px auto; max-width: 750px; padding: 20px 12px 0px 20px; } .post_meta{ display: none; } .post_share{ display: none; } input { border-radius: 5px; } textarea { resize: vertical; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; font-family:inherit; } .form-style-1 { margin:10px auto; max-width: 750px; padding: 20px 12px 10px 20px; /*font: 13px &#34;Lucida Sans Unicode&#34;, &#34;</description>
+    </item>
+    
+    <item>
+      <title>Kenpo Converter</title>
+      <link>https://luke-1220.github.io/project/kenpou/</link>
+      <pubDate>Tue, 27 Oct 2020 21:38:51 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/project/kenpou/</guid>
+      <description>&lt;p&gt;&lt;br&gt;Web App / Javascript&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Notch Wallpaper Generator</title>
+      <link>https://luke-1220.github.io/project/nwpg/</link>
+      <pubDate>Tue, 27 Oct 2020 21:36:33 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/project/nwpg/</guid>
+      <description>&lt;p&gt;iPhone用のノッチ隠し、ノッチ風壁紙を作成できます
+&lt;br&gt;Web App / Javascript&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Change Images to Cats</title>
+      <link>https://luke-1220.github.io/project/cats/</link>
+      <pubDate>Fri, 21 Aug 2020 17:05:44 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/project/cats/</guid>
+      <description>&lt;p&gt;ページの画像が、可愛い猫の画像に変わります。
+&lt;br&gt;Chrome Extension / Javascript&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【Hugo】Robustテーマで記事を更新順に並べる</title>
+      <link>https://luke-1220.github.io/post/lastmod/</link>
+      <pubDate>Tue, 04 Aug 2020 15:02:06 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/post/lastmod/</guid>
+      <description>&lt;p&gt;HugoのRobustテーマで記事を更新順に並べ、記事一覧に更新日を表示させる方法を紹介します。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>School Timer</title>
+      <link>https://luke-1220.github.io/project/schooltimer/</link>
+      <pubDate>Wed, 29 Jul 2020 17:56:09 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/project/schooltimer/</guid>
+      <description>&lt;p&gt;テストや時間割りの管理に使えるタイマー
+&lt;br&gt;iOS App / Swift&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Waslendar</title>
+      <link>https://luke-1220.github.io/project/waslendar/</link>
+      <pubDate>Wed, 29 Jul 2020 17:46:50 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/project/waslendar/</guid>
+      <description>&lt;p&gt;カレンダーを素早くチェック
+&lt;br&gt;macOS App / Swift&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【Swift5】キーワードの重複で「関連記事」を取得してみる</title>
+      <link>https://luke-1220.github.io/post/get-related-articles/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/post/get-related-articles/</guid>
+      <description>&lt;p&gt;今回は、ニュースアプリの記事ページの一番下にある「関連記事」を選ぶ関数を作ったので共有したいと思います。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Googleフォームにあらかじめ自動入力する</title>
+      <link>https://luke-1220.github.io/post/pre-fill-form/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/post/pre-fill-form/</guid>
+      <description>&lt;p&gt;アプリの不具合の報告などで、OS情報やアプリのバージョンなどの情報があるととても助かりますよね。
+そこで今回は、それらの項目を自動入力してくれるフォームの作り方を紹介します。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【Swift5】自作クラス（と配列）をUserDefaultsに簡単に保存する</title>
+      <link>https://luke-1220.github.io/post/original-class-save/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/post/original-class-save/</guid>
+      <description>&lt;p&gt;この記事では自作クラスをUserDefaultsに簡単に保存する関数を紹介します。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

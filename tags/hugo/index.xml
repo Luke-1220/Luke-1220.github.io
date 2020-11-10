@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Fusion</title>
+    <link>https://luke-1220.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Fusion</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 04 Aug 2020 15:02:06 +0900</lastBuildDate>
+    
+	<atom:link href="https://luke-1220.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【Hugo】Robustテーマで記事を更新順に並べる</title>
+      <link>https://luke-1220.github.io/post/lastmod/</link>
+      <pubDate>Tue, 04 Aug 2020 15:02:06 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/post/lastmod/</guid>
+      <description>&lt;p&gt;HugoのRobustテーマで記事を更新順に並べ、記事一覧に更新日を表示させる方法を紹介します。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

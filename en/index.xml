@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fusion</title>
+    <link>https://luke-1220.github.io/en/</link>
+    <description>Recent content on Fusion</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 29 Jul 2020 17:46:50 +0900</lastBuildDate>
+    
+	<atom:link href="https://luke-1220.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://luke-1220.github.io/en/about/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://luke-1220.github.io/en/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://luke-1220.github.io/en/contact/</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://luke-1220.github.io/en/contact/</guid>
+      <description>Name *  Email *   Your Message *    Notes      h1{ margin:10px auto; max-width: 750px; padding: 20px 12px 0px 20px; } .post_meta{ display: none; } .post_share{ display: none; } input { border-radius: 5px; } textarea { resize: vertical; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; font-family:inherit; } .form-style-1 { margin:10px auto; max-width: 750px; padding: 20px 12px 10px 20px; /*font: 13px &#34;Lucida Sans Unicode&#34;</description>
+    </item>
+    
+    <item>
+      <title>Waslendar</title>
+      <link>https://luke-1220.github.io/en/project/waslendar/</link>
+      <pubDate>Wed, 29 Jul 2020 17:46:50 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/en/project/waslendar/</guid>
+      <description>&lt;p&gt;Check Your Calendar Quickly
+&lt;br&gt;macOS App / Swift&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
