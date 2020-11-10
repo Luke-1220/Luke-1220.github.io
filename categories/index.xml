@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Fusion</title>
-    <link>https://luke-1220.github.io/categories/</link>
+    <link>http://luke1220.tk//categories/</link>
     <description>Recent content in Categories on Fusion</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
     <lastBuildDate>Tue, 04 Aug 2020 15:02:06 +0900</lastBuildDate>
     
-	<atom:link href="https://luke-1220.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://luke1220.tk//categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo</title>
-      <link>https://luke-1220.github.io/categories/hugo/</link>
+      <link>http://luke1220.tk//categories/hugo/</link>
       <pubDate>Tue, 04 Aug 2020 15:02:06 +0900</pubDate>
       
-      <guid>https://luke-1220.github.io/categories/hugo/</guid>
+      <guid>http://luke1220.tk//categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RSS</title>
-      <link>https://luke-1220.github.io/categories/rss/</link>
+      <link>http://luke1220.tk//categories/rss/</link>
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0900</pubDate>
       
-      <guid>https://luke-1220.github.io/categories/rss/</guid>
+      <guid>http://luke1220.tk//categories/rss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Swift</title>
-      <link>https://luke-1220.github.io/categories/swift/</link>
+      <link>http://luke1220.tk//categories/swift/</link>
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0900</pubDate>
       
-      <guid>https://luke-1220.github.io/categories/swift/</guid>
+      <guid>http://luke1220.tk//categories/swift/</guid>
       <description></description>
     </item>
     

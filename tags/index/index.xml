@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on Fusion</title>
-    <link>https://luke-1220.github.io/tags/index/</link>
+    <link>http://luke1220.tk//tags/index/</link>
     <description>Recent content in index on Fusion</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
     
-	<atom:link href="https://luke-1220.github.io/tags/index/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://luke1220.tk//tags/index/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Posts</title>
-      <link>https://luke-1220.github.io/post/</link>
+      <link>http://luke1220.tk//post/</link>
       <pubDate>Tue, 04 Aug 2020 15:02:06 +0900</pubDate>
       
-      <guid>https://luke-1220.github.io/post/</guid>
+      <guid>http://luke1220.tk//post/</guid>
       <description></description>
     </item>
     

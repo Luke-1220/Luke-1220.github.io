@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swift on Fusion</title>
-    <link>https://luke-1220.github.io/categories/swift/</link>
+    <link>http://luke1220.tk//categories/swift/</link>
     <description>Recent content in Swift on Fusion</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
     <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://luke-1220.github.io/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://luke1220.tk//categories/swift/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【Swift5】キーワードの重複で「関連記事」を取得してみる</title>
-      <link>https://luke-1220.github.io/post/get-related-articles/</link>
+      <link>http://luke1220.tk//post/get-related-articles/</link>
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0900</pubDate>
       
-      <guid>https://luke-1220.github.io/post/get-related-articles/</guid>
+      <guid>http://luke1220.tk//post/get-related-articles/</guid>
       <description>&lt;p&gt;今回は、ニュースアプリの記事ページの一番下にある「関連記事」を選ぶ関数を作ったので共有したいと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Googleフォームにあらかじめ自動入力する</title>
-      <link>https://luke-1220.github.io/post/pre-fill-form/</link>
+      <link>http://luke1220.tk//post/pre-fill-form/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0900</pubDate>
       
-      <guid>https://luke-1220.github.io/post/pre-fill-form/</guid>
+      <guid>http://luke1220.tk//post/pre-fill-form/</guid>
       <description>&lt;p&gt;アプリの不具合の報告などで、OS情報やアプリのバージョンなどの情報があるととても助かりますよね。
 そこで今回は、それらの項目を自動入力してくれるフォームの作り方を紹介します。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>【Swift5】自作クラス（と配列）をUserDefaultsに簡単に保存する</title>
-      <link>https://luke-1220.github.io/post/original-class-save/</link>
+      <link>http://luke1220.tk//post/original-class-save/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0900</pubDate>
       
-      <guid>https://luke-1220.github.io/post/original-class-save/</guid>
+      <guid>http://luke1220.tk//post/original-class-save/</guid>
       <description>&lt;p&gt;この記事では自作クラスをUserDefaultsに簡単に保存する関数を紹介します。&lt;/p&gt;</description>
     </item>
     

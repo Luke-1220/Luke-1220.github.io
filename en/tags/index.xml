@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fusion</title>
-    <link>https://luke-1220.github.io/en/tags/</link>
+    <link>http://luke1220.tk//en/tags/</link>
     <description>Recent content in Tags on Fusion</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
     
-	<atom:link href="https://luke-1220.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://luke1220.tk//en/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
