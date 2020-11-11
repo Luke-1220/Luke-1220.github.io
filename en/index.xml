@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fusion</title>
-    <link>http://luke1220.tk//en/</link>
+    <link>https://luke1220.tk/en/</link>
     <description>Recent content on Fusion</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
     <lastBuildDate>Wed, 29 Jul 2020 17:46:50 +0900</lastBuildDate>
     
-	<atom:link href="http://luke1220.tk//en/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://luke1220.tk/en/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://luke1220.tk//en/about/</link>
+      <link>https://luke1220.tk/en/about/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://luke1220.tk//en/about/</guid>
+      <guid>https://luke1220.tk/en/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://luke1220.tk//en/contact/</link>
+      <link>https://luke1220.tk/en/contact/</link>
       <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://luke1220.tk//en/contact/</guid>
+      <guid>https://luke1220.tk/en/contact/</guid>
       <description>Name *  Email *   Your Message *    Notes      h1{ margin:10px auto; max-width: 750px; padding: 20px 12px 0px 20px; } div#disqus_thread { display: none; } .dsq-brlink{ display: none; } .post_meta{ display: none; } .post_share{ display: none; } input { border-radius: 5px; } textarea { resize: vertical; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; font-family:inherit; } .form-style-1 { margin:10px auto; max-width: 750px; padding: 20px 12px 10px 20px; } .</description>
     </item>
     
     <item>
       <title>Waslendar</title>
-      <link>http://luke1220.tk//en/project/waslendar/</link>
+      <link>https://luke1220.tk/en/project/waslendar/</link>
       <pubDate>Wed, 29 Jul 2020 17:46:50 +0900</pubDate>
       
-      <guid>http://luke1220.tk//en/project/waslendar/</guid>
+      <guid>https://luke1220.tk/en/project/waslendar/</guid>
       <description>&lt;p&gt;Check Your Calendar Quickly
 &lt;br&gt;macOS App / Swift&lt;/p&gt;</description>
     </item>
