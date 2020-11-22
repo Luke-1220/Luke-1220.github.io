@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>Search</title>
+      <link>https://luke1220.tk/search/</link>
+      <pubDate>Sun, 22 Nov 2020 15:07:31 +0900</pubDate>
+      
+      <guid>https://luke1220.tk/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://luke1220.tk/index.js</link>
+      <pubDate>Sun, 22 Nov 2020 15:04:16 +0900</pubDate>
+      
+      <guid>https://luke1220.tk/index.js</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>このサイトについて</title>
       <link>https://luke1220.tk/about/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
@@ -97,7 +115,7 @@
     </item>
     
     <item>
-      <title>Googleフォームにあらかじめ自動入力する</title>
+      <title>【Swift5】Googleフォームにあらかじめ自動入力する</title>
       <link>https://luke1220.tk/post/pre-fill-form/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0900</pubDate>
       

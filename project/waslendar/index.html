@@ -40,20 +40,19 @@ macOS App / Swift" />
 
     
     
-    <link rel="preload" href="https://luke1220.tk/css/styles.80843d9b72adc10698749fbcf45303e67491c954c4a176f729f34c6acec3e3dea21f6e207700d7d037bb33b9aca6c5121f673c1664d0485791aec95273cb8ae9.css" integrity = "sha512-gIQ9m3KtwQaYdJ&#43;89FMD5nSRyVTEoXb3KfNMas7D496iH24gdwDX0De7M7mspsUSH2c8FmTQSFeRrslSc8uK6Q==" as="style" crossorigin="anonymous">
+    <link rel="preload" href="https://luke1220.tk/css/styles.4902b47b0df63c8d15b995174acf6cd5cf2fee59c07ac35c7e4a2a458de0d22bf03a8c5a06f41a93977e73e62a55ce38d8cc0ae1c41177c87982c52d5d918e72.css" integrity = "sha512-SQK0ew32PI0VuZUXSs9s1c8v7lnAesNcfkoqRY3g0ivwOoxaBvQak5d&#43;c&#43;YqVc442MwK4cQRd8h5gsUtXZGOcg==" as="style" crossorigin="anonymous">
     <link rel="preload" href="https://luke1220.tk/js/bundle.min.5527ec12703fe332c76ea3be294a1e68f66fc1e08a87025423e024bd6b9e739c26fcedbdc28b1a3ec25a96dd527c36c960ef4a3020b0a04eb576ce64e0dcf57b.js" as="script" integrity=
     "sha512-VSfsEnA/4zLHbqO&#43;KUoeaPZvweCKhwJUI&#43;AkvWuec5wm/O29wosaPsJalt1SfDbJYO9KMCCwoE61ds5k4Nz1ew==" crossorigin="anonymous">
 
     
-    <link rel="stylesheet" type="text/css" href="https://luke1220.tk/css/styles.80843d9b72adc10698749fbcf45303e67491c954c4a176f729f34c6acec3e3dea21f6e207700d7d037bb33b9aca6c5121f673c1664d0485791aec95273cb8ae9.css" integrity="sha512-gIQ9m3KtwQaYdJ&#43;89FMD5nSRyVTEoXb3KfNMas7D496iH24gdwDX0De7M7mspsUSH2c8FmTQSFeRrslSc8uK6Q==" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://luke1220.tk/css/styles.4902b47b0df63c8d15b995174acf6cd5cf2fee59c07ac35c7e4a2a458de0d22bf03a8c5a06f41a93977e73e62a55ce38d8cc0ae1c41177c87982c52d5d918e72.css" integrity="sha512-SQK0ew32PI0VuZUXSs9s1c8v7lnAesNcfkoqRY3g0ivwOoxaBvQak5d&#43;c&#43;YqVc442MwK4cQRd8h5gsUtXZGOcg==" crossorigin="anonymous">
     
   </head>
   
   
-  
     
   
-  <body data-code="7" data-lines="true" id="documentTop">
+  <body data-code="100" data-lines="false" id="documentTop">
 
 <header class="nav_header" >
   <nav class="nav">
@@ -248,6 +247,39 @@ macOS Xでの動作も確認しています。</p>
 <aside class="sidebar">
   <section class="sidebar_inner">
     
+
+    <div class="searchbar">
+    <h2>Search</h2>
+    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="15pt" height="16pt" viewBox="0 50 1280.000000 1230.000000"
+ preserveAspectRatio="xMidYMid meet">
+    <g transform="translate(0.000000,1230.000000) scale(0.100000,-0.100000)"
+    fill="var(--header-text)" stroke="none">
+    <path d="M4970 12294 c-25 -2 -106 -8 -180 -14 -1181 -95 -2334 -616 -3184
+    -1440 -317 -307 -568 -614 -792 -967 -449 -708 -709 -1478 -796 -2358 -17
+    -173 -17 -720 0 -900 69 -738 273 -1425 604 -2040 500 -928 1256 -1675 2189
+    -2164 919 -481 1996 -677 3049 -555 868 100 1728 430 2427 931 56 40 104 73
+    108 73 3 0 641 -588 1418 -1307 776 -718 1437 -1326 1467 -1350 72 -58 235
+    -138 335 -165 116 -31 355 -31 470 0 600 165 884 837 581 1375 -78 138 76 -8
+    -1913 1831 l-1080 998 84 142 c167 280 340 657 449 978 403 1187 368 2487 -98
+    3656 -388 976 -1074 1820 -1949 2402 -726 482 -1517 764 -2399 855 -144 15
+    -682 28 -790 19z m614 -1879 c656 -70 1247 -314 1771 -731 141 -112 406 -377
+    519 -519 594 -744 844 -1668 705 -2608 -183 -1239 -1087 -2308 -2284 -2700
+    -389 -128 -707 -174 -1138 -164 -268 6 -406 22 -632 72 -950 213 -1757 815
+    -2233 1666 -373 666 -506 1454 -372 2209 160 909 697 1723 1475 2236 455 300
+    954 479 1498 538 169 19 520 19 691 1z"/>
+    </g>
+    </svg>
+    <input type="text" id="search" class="search"/>
+    <script>
+      const input = document.getElementById("search");
+      input.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+          window.location.href = "https://luke1220.tk/search/" + "?q=" + encodeURI(input.value);
+        }
+      });
+    </script>
+    </div>
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
@@ -257,7 +289,7 @@ macOS Xでの動作も確認しています。</p>
         <a href="https://luke1220.tk/post/get-related-articles/" class="nav-link">【Swift5】キーワードの重複で「関連記事」を取得してみる</a>
       </li>
       <li>
-        <a href="https://luke1220.tk/post/pre-fill-form/" class="nav-link">Googleフォームにあらかじめ自動入力する</a>
+        <a href="https://luke1220.tk/post/pre-fill-form/" class="nav-link">【Swift5】Googleフォームにあらかじめ自動入力する</a>
       </li>
       <li>
         <a href="https://luke1220.tk/post/original-class-save/" class="nav-link">【Swift5】自作クラス（と配列）をUserDefaultsに簡単に保存する</a>
