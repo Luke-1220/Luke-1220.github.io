@@ -6,10 +6,19 @@
     <description>Recent content in HTML on Fusion</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 23 Nov 2020 10:08:41 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2020 15:53:48 +0900</lastBuildDate>
     
 	<atom:link href="https://luke-1220.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>【JS】超簡単にURLパラメータ事前入力</title>
+      <link>https://luke-1220.github.io/post/parameter/</link>
+      <pubDate>Mon, 23 Nov 2020 15:53:48 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/post/parameter/</guid>
+      <description>&lt;p&gt;ページ読み込み時にURLパラメータをセットする方法です。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>【Hugo】サイト内検索機能を実装した</title>

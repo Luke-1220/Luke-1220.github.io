@@ -6,10 +6,28 @@
     <description>Recent content in Swift on Fusion</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://luke-1220.github.io/tags/swift/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Swift5で初回起動判定</title>
+      <link>https://luke-1220.github.io/post/firstvisit/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/post/firstvisit/</guid>
+      <description>&lt;p&gt;n番煎じのネタだと思いますが、Swiftでアプリの初回起動処理を行う方法です。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【Swift5】RSSフィードのURLを見つける</title>
+      <link>https://luke-1220.github.io/post/feed-find/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/post/feed-find/</guid>
+      <description>&lt;p&gt;RSSリーダーには、&lt;code&gt;https://〇〇〇.com&lt;/code&gt;と入力するだけで&lt;code&gt;https://〇〇〇.com/feed.xml&lt;/code&gt;のようなフィードのURLを自動で見つけてくれる機能があったりします。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>【Swift5】キーワードの重複で「関連記事」を取得してみる</title>

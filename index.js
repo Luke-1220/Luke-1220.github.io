@@ -4,6 +4,16 @@ var data = [
 
 
 {
+url: "https://luke-1220.github.io/post/parameter/",
+title: "【JS】超簡単にURLパラメータ事前入力",
+ctime: "2020/11/23",
+content: "[ページ読み込み時にURLパラメータをセットする方法です。 コード 1window.onload = function(){ 2 const searchParams = new URLSearchParams(decodeURI(location.search)); 3 var input = document.getElementById(&amp;#39;input&amp;#39;); 4 input.value = searchParams.get(&amp;#39;q&amp;#39;); 5 window.history.replaceState(0, 0,&amp;#39;./&amp;#39;); 6}; 内容 ページ読み込み時に実行 1window.onload = function(){ 2 //処理 3}; デコードしたURLからパラメータを取得 1const searchParams = new URLSearchParams(decodeURI(location.search)); qというパラメータの値をinputにセット 1var input = document.getElementById(&amp;#39;input&amp;#39;); 2input.value = searchParams.get(&amp;#39;q&amp;#39;); ブラウザのURL欄からパラメータを削除 1window.history.replaceState(0, 0,&amp;#39;./&amp;#39;); ちなみに、当サイトではお問い合わせページで使用しています。]"
+}
+
+
+
+,
+{
 url: "https://luke-1220.github.io/post/search/",
 title: "【Hugo】サイト内検索機能を実装した",
 ctime: "2020/11/23",
@@ -18,6 +28,36 @@ url: "https://luke-1220.github.io/post/lastmod/",
 title: "【Hugo】Robustテーマで記事を更新順に並べる",
 ctime: "2020/08/04",
 content: "[HugoのRobustテーマで記事を更新順に並べ、記事一覧に更新日を表示させる方法を紹介します。 はじめに Qiitaから引っ越した記事などにdateとlastmodを設定したのですが、記事一覧が作成日順になっているのが気になりました。 もし、昔書いた記事を大幅に書き換えて最新の内容にしたのに、作成日が古いせいで後ろの方に表示される、なんてことがあったら困ります。 そこで今回は、記事を更新順に並べてみます。 記事を更新順に並べる themes/hugo_theme_robust/layouts/_default/list.htmlを、layouts/_default/list.htmlにコピー。 1{{ range $paginator.Pages }} この部分（⌘Fで探してください）に書き足すだけです。 1{{ range $paginator.Pages.ByLastmod.Reverse }} .ByLastmodで更新日の古い順にし、.Reverseで新しい順に並び替えます。 追記 結局、記事一覧の方は作成日順に戻しました。 更新順にするのはLATESTSだけで良いかな…。 記事一覧に更新日を表示させる themes/hugo_theme_robust/layouts/_default/li_sm.htmlもlayouts/_default/li_sm.htmlにコピーします。 li_sm.htmlとlist.htmlから以下の一行を探し、 1&amp;lt;li&amp;gt;&amp;lt;i class=&amp;#34;fas fa-calendar&amp;#34; aria-hidden=&amp;#34;true&amp;#34;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;time datetime=&amp;#34;{{ .Date.Format &amp;#34;2007-01-02T15:04:05JST&amp;#34; }}&amp;#34;&amp;gt;{{ .Date.Format ( .Site.Params.dateformat | default &amp;#34;Jan 2, 2006&amp;#34;) }}&amp;lt;/time&amp;gt;&amp;lt;/li&amp;gt; 削除してから、このif文を丸ごとペーストしてください。 1{{ if ne .Date .Lastmod }} 2&amp;lt;li&amp;gt;&amp;lt;i class=&amp;#34;fas fa-sync&amp;#34; aria-hidden=&amp;#34;true&amp;#34;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;time datetime=&amp;#34;{{ .Lastmod.Format &amp;#34;2006-01-02T15:04:05JST&amp;#34; }}&amp;#34;&amp;gt;{{ .Lastmod.Format ( .Site.Params.dateformat | default &amp;#34;Jan 2, 2006&amp;#34;) }}&amp;lt;/time&amp;gt;&amp;lt;/li&amp;gt; 3{{ else }} 4&amp;lt;li&amp;gt;&amp;lt;i class=&amp;#34;fas fa-calendar&amp;#34; aria-hidden=&amp;#34;true&amp;#34;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;time datetime=&amp;#34;{{ .Date.Format &amp;#34;2006-01-02T15:04:05JST&amp;#34; }}&amp;#34;&amp;gt;{{ .Date.Format ( .Site.Params.dateformat | default &amp;#34;Jan 2, 2006&amp;#34;) }}&amp;lt;/time&amp;gt;&amp;lt;/li&amp;gt; 5{{ end }} これで、更新日がある場合はそちらが表示され、ない場合（または作成日と同じ場合）は作成日が表示されます。 ちなみに、li_sm.htmlがサイドバーの「LATESTS」や記事ページ下部の「次の記事」欄のHTMLファイルで、list.htmlはトップページやカテゴリページのためのHTMLファイルのようです。 参考 最近更新された記事（新着記事）のリストを表示する]"
+}
+
+
+
+,
+{
+url: "https://luke-1220.github.io/post/firstvisit/",
+title: "Swift5で初回起動判定",
+ctime: "2020/07/18",
+content: "[n番煎じのネタだと思いますが、Swiftでアプリの初回起動処理を行う方法です。 1func setup() { 2 //UserDefaults.standard.set(false, forKey: &amp;#34;visit&amp;#34;) //リセット用 3 let visit = UserDefaults.standard.bool(forKey: &amp;#34;visit&amp;#34;) 4 if visit { 5 //二回目以降 6 print(&amp;#34;二回目以降&amp;#34;) 7 } else { 8 //初回アクセス 9 print(&amp;#34;初回起動&amp;#34;) 10 UserDefaults.standard.set(true, forKey: &amp;#34;visit&amp;#34;) 11 } 12} setup()をAppDelegateとかSceneDelegateに追加するだけです。]"
+}
+
+
+
+,
+{
+url: "https://luke-1220.github.io/post/mac-auth/",
+title: "Macアプリの公証を済ませて「悪質なソフトウェア〜」が出ないようにする",
+ctime: "2020/06/23",
+content: "[近年Appleの野良アプリの制限が強化されているようで、公証（Notarization）を行なっていないアプリをネットからダウンロードして開こうとすると以下のような表示が出てきてしまいます。 僕の開発したアプリも初めはこの警告が出てきていましたが、以下の手順で解決しました。 ターミナルでも可能ですが、Xcodeでの手順を解説します。 前提 Apple Developer Programに登録してあることが前提となります。 アプリをアーカイブしていない場合は、Xcode上部のバーのProduct→Archiveを実行しておいてください。 そのアプリのApp IDを作成しておいてください。（参考） 公証の手順 Provisioning Profileの作成 Certificates, Identifiers &amp;amp; Profilesを開いて、profile→「&#43;」からプロファイルを作成します。 このページが参考になりますが、違う点だけ書いておきます。 「App Store」ではなく「Developer ID」を選択してください。 次に進んだらApp IDを選択します。 公証を受ける アプリを一度提出する必要がありますが、App Storeに比べるとだいぶ楽だと思います。 Xcode上部のバーのWindow→Organizerをクリックしてオーガナイザーを開いてください。 公証を受けるビルドを選択し（ビルドごとに公証に出すみたい？）「Distribute App」をクリック。 Developer IDを選択します。 Uploadを選択。Exportを選ぶと公証を通さずにアプリを配布できます。 （今までずっとそっちを選択していました） 上を選ぶと自動でやってくれますが、念の為Manuallyを選択。 Developer IDとProvisioning Profileを選びます。これでUploadすると公証が始まります。 公証後 完了するとチェックマークが出てきます。たったの数分で完了しました。 右下のExportでアプリを出力できます。 おわりに 上記の手順を行なうと、このような表示に変わります。 家マークの⚠️が消えれば完了です。 参考 [mac] アプリの公証を受ける方法 (Notarized applicationのビルド方法)]"
+}
+
+
+
+,
+{
+url: "https://luke-1220.github.io/post/feed-find/",
+title: "【Swift5】RSSフィードのURLを見つける",
+ctime: "2020/06/08",
+content: "[RSSリーダーには、https://〇〇〇.comと入力するだけでhttps://〇〇〇.com/feed.xmlのようなフィードのURLを自動で見つけてくれる機能があったりします。 今回は、Auto Discoveryというものを利用して実装してみます。 試しにGizmodo JapanのHTMLを見てみると… 1&amp;lt;link rel=&amp;#34;alternate&amp;#34; type=&amp;#34;application/rss&#43;xml&amp;#34; title=&amp;#34;RSS 2.0&amp;#34; href=&amp;#34;https://www.gizmodo.jp/index.xml&amp;#34;&amp;gt; 2&amp;lt;link rel=&amp;#34;alternate&amp;#34; type=&amp;#34;application/atom&#43;xml&amp;#34; title=&amp;#34;Atom&amp;#34; href=&amp;#34;https://www.gizmodo.jp/atom.xml&amp;#34;&amp;gt; ありました。 このapplication/〇〇〇&#43;xmlがある、すなわちAuto Discoveryに対応しているサイトなら簡単にURLが取得できます。 たったこれだけ 1if let doc = try? HTML(url: URL(string: &amp;#34;https://gizmodo.jp&amp;#34;)!, encoding: .utf8) { 2 for node in doc.xpath(&amp;#34;//link[@type=&amp;#39;application/rss&#43;xml&amp;#39;]&amp;#34;) { 3 print(&amp;#34;rss:\(node[&amp;#34;href&amp;#34;]!)&amp;#34;) 4 } 5 for node in doc.xpath(&amp;#34;//link[@type=&amp;#39;application/atom&#43;xml&amp;#39;]&amp;#34;) { 6 print(&amp;#34;atom:\(node[&amp;#34;href&amp;#34;]!)&amp;#34;) 7 } 8} HTMLパーサーはKannaというライブラリを使用しました。 Swift製HTMLパーサ「Kanna」 少し古いですが、こちらの記事が参考になります。importする手順も書かれています。 出力結果 1rss:https://www.gizmodo.jp/index.xml 2atom:https://www.gizmodo.jp/atom.xml 問題なく取得できました。 今回試したGizmodoはrssとatomの両方に対応していたようです。]"
 }
 
 
