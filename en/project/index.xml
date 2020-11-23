@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Fusion</title>
-    <link>https://luke1220.tk/en/project/</link>
+    <link>https://luke-1220.github.io/en/project/</link>
     <description>Recent content in Projects on Fusion</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
     <lastBuildDate>Wed, 29 Jul 2020 17:46:50 +0900</lastBuildDate>
     
-	<atom:link href="https://luke1220.tk/en/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://luke-1220.github.io/en/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Waslendar</title>
-      <link>https://luke1220.tk/en/project/waslendar/</link>
+      <link>https://luke-1220.github.io/en/project/waslendar/</link>
       <pubDate>Wed, 29 Jul 2020 17:46:50 +0900</pubDate>
       
-      <guid>https://luke1220.tk/en/project/waslendar/</guid>
+      <guid>https://luke-1220.github.io/en/project/waslendar/</guid>
       <description>&lt;p&gt;Check Your Calendar Quickly
 &lt;br&gt;macOS App / Swift&lt;/p&gt;</description>
     </item>

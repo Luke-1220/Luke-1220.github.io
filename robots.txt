@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://luke1220.tk/sitemap.xml
+Sitemap: https://luke-1220.github.io/sitemap.xml

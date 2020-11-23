@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Fusion</title>
-    <link>https://luke1220.tk/project/</link>
+    <link>https://luke-1220.github.io/project/</link>
     <description>Recent content in Projects on Fusion</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
     <lastBuildDate>Tue, 27 Oct 2020 21:38:51 +0900</lastBuildDate>
     
-	<atom:link href="https://luke1220.tk/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://luke-1220.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kenpo Converter</title>
-      <link>https://luke1220.tk/project/kenpou/</link>
+      <link>https://luke-1220.github.io/project/kenpou/</link>
       <pubDate>Tue, 27 Oct 2020 21:38:51 +0900</pubDate>
       
-      <guid>https://luke1220.tk/project/kenpou/</guid>
+      <guid>https://luke-1220.github.io/project/kenpou/</guid>
       <description>&lt;p&gt;&lt;br&gt;Web App / Javascript&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Notch Wallpaper Generator</title>
-      <link>https://luke1220.tk/project/nwpg/</link>
+      <link>https://luke-1220.github.io/project/nwpg/</link>
       <pubDate>Tue, 27 Oct 2020 21:36:33 +0900</pubDate>
       
-      <guid>https://luke1220.tk/project/nwpg/</guid>
+      <guid>https://luke-1220.github.io/project/nwpg/</guid>
       <description>&lt;p&gt;iPhone用のノッチ隠し、ノッチ風壁紙を作成できます
 &lt;br&gt;Web App / Javascript&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Change Images to Cats</title>
-      <link>https://luke1220.tk/project/cats/</link>
+      <link>https://luke-1220.github.io/project/cats/</link>
       <pubDate>Fri, 21 Aug 2020 17:05:44 +0900</pubDate>
       
-      <guid>https://luke1220.tk/project/cats/</guid>
+      <guid>https://luke-1220.github.io/project/cats/</guid>
       <description>&lt;p&gt;ページの画像が、可愛い猫の画像に変わります。
 &lt;br&gt;Chrome Extension / Javascript&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>School Timer</title>
-      <link>https://luke1220.tk/project/schooltimer/</link>
+      <link>https://luke-1220.github.io/project/schooltimer/</link>
       <pubDate>Wed, 29 Jul 2020 17:56:09 +0900</pubDate>
       
-      <guid>https://luke1220.tk/project/schooltimer/</guid>
+      <guid>https://luke-1220.github.io/project/schooltimer/</guid>
       <description>&lt;p&gt;テストや時間割りの管理に使えるタイマー
 &lt;br&gt;iOS App / Swift&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Waslendar</title>
-      <link>https://luke1220.tk/project/waslendar/</link>
+      <link>https://luke-1220.github.io/project/waslendar/</link>
       <pubDate>Wed, 29 Jul 2020 17:46:50 +0900</pubDate>
       
-      <guid>https://luke1220.tk/project/waslendar/</guid>
+      <guid>https://luke-1220.github.io/project/waslendar/</guid>
       <description>&lt;p&gt;カレンダーを素早くチェック
 &lt;br&gt;macOS App / Swift&lt;/p&gt;</description>
     </item>
