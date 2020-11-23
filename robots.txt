@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://luke1220.tk/sitemap.xml

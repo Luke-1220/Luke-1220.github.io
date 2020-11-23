@@ -36,12 +36,12 @@
 
     
     
-    <link rel="preload" href="https://luke1220.tk/css/styles.4902b47b0df63c8d15b995174acf6cd5cf2fee59c07ac35c7e4a2a458de0d22bf03a8c5a06f41a93977e73e62a55ce38d8cc0ae1c41177c87982c52d5d918e72.css" integrity = "sha512-SQK0ew32PI0VuZUXSs9s1c8v7lnAesNcfkoqRY3g0ivwOoxaBvQak5d&#43;c&#43;YqVc442MwK4cQRd8h5gsUtXZGOcg==" as="style" crossorigin="anonymous">
+    <link rel="preload" href="https://luke1220.tk/css/styles.82c41604d9013f2126613d2d1475d7cfaacf1dd4d6bb5925d2b4c77873883d6f6d03e1fd5d0df4087fc3f39d9495ea52734ad8b04b6cdab27c1d47fec82b0d86.css" integrity = "sha512-gsQWBNkBPyEmYT0tFHXXz6rPHdTWu1kl0rTHeHOIPW9tA&#43;H9XQ30CH/D852UlepSc0rYsEts2rJ8HUf&#43;yCsNhg==" as="style" crossorigin="anonymous">
     <link rel="preload" href="https://luke1220.tk/js/bundle.min.5527ec12703fe332c76ea3be294a1e68f66fc1e08a87025423e024bd6b9e739c26fcedbdc28b1a3ec25a96dd527c36c960ef4a3020b0a04eb576ce64e0dcf57b.js" as="script" integrity=
     "sha512-VSfsEnA/4zLHbqO&#43;KUoeaPZvweCKhwJUI&#43;AkvWuec5wm/O29wosaPsJalt1SfDbJYO9KMCCwoE61ds5k4Nz1ew==" crossorigin="anonymous">
 
     
-    <link rel="stylesheet" type="text/css" href="https://luke1220.tk/css/styles.4902b47b0df63c8d15b995174acf6cd5cf2fee59c07ac35c7e4a2a458de0d22bf03a8c5a06f41a93977e73e62a55ce38d8cc0ae1c41177c87982c52d5d918e72.css" integrity="sha512-SQK0ew32PI0VuZUXSs9s1c8v7lnAesNcfkoqRY3g0ivwOoxaBvQak5d&#43;c&#43;YqVc442MwK4cQRd8h5gsUtXZGOcg==" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://luke1220.tk/css/styles.82c41604d9013f2126613d2d1475d7cfaacf1dd4d6bb5925d2b4c77873883d6f6d03e1fd5d0df4087fc3f39d9495ea52734ad8b04b6cdab27c1d47fec82b0d86.css" integrity="sha512-gsQWBNkBPyEmYT0tFHXXz6rPHdTWu1kl0rTHeHOIPW9tA&#43;H9XQ30CH/D852UlepSc0rYsEts2rJ8HUf&#43;yCsNhg==" crossorigin="anonymous">
     
   </head>
   
@@ -170,7 +170,8 @@
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        width: 40%;
+        
+        max-width: 230px;
         color:var(--text);
         border-bottom:var(--header-text) 2px solid;
         font-size: 30px;
@@ -202,7 +203,7 @@
       }
     </style>
 
-    <script src="https://luke1220.tk/index.js"></script>
+    <script src='https://luke1220.tk/index.js'></script>
     <div id="searchbox">
       <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
    width="20pt" height="30pt" viewBox="0 150 1280.000000 1230.000000"
@@ -224,7 +225,7 @@
       954 479 1498 538 169 19 520 19 691 1z"/>
       </g>
       </svg>
-    <input type="text" id="input" onkeyup="do_find(this.value)" onkeydown="key(event.keyCode)" autocomplete="off" autofocus>
+    <input type="text" id="input" onkeyup="do_find(this.value)" autocomplete="off" autofocus>
     <span id="stat"></span>
     </div>
     <ul class="posts" id="result"></ul>
@@ -235,9 +236,10 @@
         param = searchParams.get('q');
         var input = document.getElementById('input');
         input.value = param;
-        do_find(input.value)
+        do_find(input.value);
       };
-
+    </script>
+    <script>
     {
     	$_ = String.prototype;
 
@@ -274,19 +276,11 @@
     }
     </script>
     <script>
-    var start = new Date().getTime();
     var bodylist = [];
     var st = gid("stat");
     var re = gid("result");
     var nv = gid("navi");
     var max = 5;
-    var KC = {
-    	enter: 13,
-    	left : 37,
-    	right: 39,
-    	up   : 38,
-    	down : 40
-    };
     function gid(id){
     	return document.getElementById(id);
     }
@@ -295,21 +289,15 @@
     	return "[" + a[0] + a[0].toUpperCase() + "]"
     }
     function do_find(v){
+      const input = document.getElementById("input")
+      window.history.replaceState(0, 0,"./?q="+input.value);
+
     	if(this.lastquery == v){return}
     	this.lastquery = v;
     	var re = find(v);
     	if(re.length){
     		pagenavi(re);
     		view(re)
-    	}
-    }
-    function key(c){
-    	switch(c){
-    		case KC.enter: mv(1);break;
-    		case KC.left : mv(-1);break;
-    		case KC.right: mv(1);break;
-    		case KC.up   : mv(-1);break;
-    		case KC.down : mv(1);break;
     	}
     }
     function find(v){
@@ -344,17 +332,7 @@
     	if(result.length){
     		st.innerHTML = result.length +" / "+ data.length;
     	}
-    	var end = new Date().getTime();
-
-    	console.log("Find:"+ (end-start) + " ms");
     	return result;
-    }
-    function time2date(time){
-    	if(!this.cache){this.cache = {}};
-    	if(this.cache[time]) return this.cache[time];
-    	var d = new Date(time*1000);
-    	this.cache[time] = d.formatTime("yyyy/mm/dd");
-    	return this.cache[time];
     }
     function snippet(body,idx,len){
     	var start = idx - 20;
@@ -411,21 +389,20 @@
     	}else{
     		this.last = result;
     	}
-    	var r = result.reverse();
     	var buf = ["<dl>"];
     	var count = 0;
-    	for(var i=(offset-1)*max;i<r.length;i++){
+    	for(var i=(offset-1)*max;i<result.length;i++){
     		count++;
     		if(count > max){break}
-    		var num = r[i][0];
-    		var idx = r[i][1];
-    		var len = r[i][2];
+    		var num = result[i][0];
+    		var idx = result[i][1];
+    		var len = result[i][2];
     		with(data[num]){
     			buf.push(
     				"<li class='post_item'><div class='excerpt'><div class='excerpt_header'><a href='",url,"'><h3 class='post_link'>"
     				,title||"無題","</a></h3>"
     				,"<div class='post_meta'><svg class='icon'><use xlink:href='#calendar'></use></svg><span class='post_date'>"
-            ,time2date(ctime)
+            ,ctime
             ,"</span></div></div><div class='excerpt_footer'><p>"
     				,snippet(bodylist[num],idx,len)
             ,"</p></div></li>"
@@ -438,9 +415,6 @@
     	bodylist.push(data[i].title+ " " +data[i].content);
     }
     var bodyidx = bodylist.join("<>");
-    var end = new Date().getTime();
-
-    console.log("Index:"+ (end-start) + " ms");
     </script>
   </article>
 <aside class="sidebar">
@@ -482,6 +456,9 @@
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
+        <a href="https://luke1220.tk/post/search/" class="nav-link">【Hugo】サイト内検索機能を実装した</a>
+      </li>
+      <li>
         <a href="https://luke1220.tk/post/lastmod/" class="nav-link">【Hugo】Robustテーマで記事を更新順に並べる</a>
       </li>
       <li>
@@ -504,7 +481,7 @@
         
         <a href='https://luke1220.tk/categories/hugo/' class="post_tag button button_translucent">
           HUGO
-          <span class="button_tally">1</span>
+          <span class="button_tally">2</span>
         </a>
         
         <a href='https://luke1220.tk/categories/rss/' class="post_tag button button_translucent">
@@ -523,18 +500,28 @@
           <span class="button_tally">3</span>
         </a>
         
+        <a href='https://luke1220.tk/tags/hugo/' class="post_tag button button_translucent">
+          HUGO
+          <span class="button_tally">2</span>
+        </a>
+        
         <a href='https://luke1220.tk/tags/google%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0/' class="post_tag button button_translucent">
           GOOGLEフォーム
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://luke1220.tk/tags/hugo/' class="post_tag button button_translucent">
-          HUGO
+        <a href='https://luke1220.tk/tags/html/' class="post_tag button button_translucent">
+          HTML
           <span class="button_tally">1</span>
         </a>
         
         <a href='https://luke1220.tk/tags/index/' class="post_tag button button_translucent">
           INDEX
+          <span class="button_tally">1</span>
+        </a>
+        
+        <a href='https://luke1220.tk/tags/javascript/' class="post_tag button button_translucent">
+          JAVASCRIPT
           <span class="button_tally">1</span>
         </a>
         
