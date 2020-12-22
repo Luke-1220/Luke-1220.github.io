@@ -6,10 +6,20 @@
     <description>Recent content in Projects on Fusion</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 27 Oct 2020 21:38:51 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 10:52:09 +0900</lastBuildDate>
     
 	<atom:link href="https://luke-1220.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>YTCaption</title>
+      <link>https://luke-1220.github.io/project/ytcaption/</link>
+      <pubDate>Tue, 22 Dec 2020 10:52:09 +0900</pubDate>
+      
+      <guid>https://luke-1220.github.io/project/ytcaption/</guid>
+      <description>&lt;p&gt;YouTubeの字幕を簡単にカスタムできます。
+&lt;br&gt;Chrome Extension / Javascript&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Kenpo Converter</title>
@@ -27,7 +37,7 @@
       <pubDate>Tue, 27 Oct 2020 21:36:33 +0900</pubDate>
       
       <guid>https://luke-1220.github.io/project/nwpg/</guid>
-      <description>&lt;p&gt;iPhone用のノッチ隠し、ノッチ風壁紙を作成できます
+      <description>&lt;p&gt;iPhone用のノッチ隠し、ノッチ風壁紙を作成できます。
 &lt;br&gt;Web App / Javascript&lt;/p&gt;</description>
     </item>
     
