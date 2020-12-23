@@ -56,14 +56,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>RSS</title>
-      <link>https://luke-1220.github.io/categories/rss/</link>
-      <pubDate>Sun, 07 Jun 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://luke-1220.github.io/categories/rss/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
