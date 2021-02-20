@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+    <channel>
+        <title>GitHub on Fusion</title>
+        <link>https://luke-1220.github.io/tags/GitHub/</link>
+        
+            <language>ja-jp</language>
+        
+        
+        <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
+        
+            <lastBuildDate>Thu, 30 Jul 2020 18:18:55 +0900</lastBuildDate>
+        
+        <atom:link href="https://luke-1220.github.io/tags/GitHub/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>【Hugo】JekyllじゃないサイトをGitHubに上げたらエラーが出た</title>
+                <link>https://luke-1220.github.io/post/nojekyll/</link>
+                <pubDate>Thu, 30 Jul 2020 18:18:55 +0900</pubDate>
+                <guid>https://luke-1220.github.io/post/nojekyll/</guid>
+                <description>Hugoで作成したページをGitHub Pagesに上げたのですが、いくら待っても反映されませんでした。
+</description>
+            </item>
+        
+    </channel>
+</rss>

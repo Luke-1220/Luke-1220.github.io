@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+    <channel>
+        <title>Python on Fusion</title>
+        <link>https://luke-1220.github.io/tags/Python/</link>
+        
+            <language>ja-jp</language>
+        
+        
+        <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
+        
+            <lastBuildDate>Sat, 13 Feb 2021 21:28:48 +0900</lastBuildDate>
+        
+        <atom:link href="https://luke-1220.github.io/tags/Python/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>SwiftとPythonの文法比較</title>
+                <link>https://luke-1220.github.io/post/swift-python/</link>
+                <pubDate>Sat, 13 Feb 2021 21:28:48 +0900</pubDate>
+                <guid>https://luke-1220.github.io/post/swift-python/</guid>
+                <description></description>
+            </item>
+        
+    </channel>
+</rss>

@@ -1,69 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Projects on Fusion</title>
-    <link>https://luke-1220.github.io/project/</link>
-    <description>Recent content in Projects on Fusion</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2020, Fusion; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 22 Dec 2020 10:52:09 +0900</lastBuildDate>
-    
-	<atom:link href="https://luke-1220.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>YTCaption</title>
-      <link>https://luke-1220.github.io/project/ytcaption/</link>
-      <pubDate>Tue, 22 Dec 2020 10:52:09 +0900</pubDate>
-      
-      <guid>https://luke-1220.github.io/project/ytcaption/</guid>
-      <description>&lt;p&gt;YouTubeの字幕をCSSで簡単にカスタム&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Kenpo Converter</title>
-      <link>https://luke-1220.github.io/project/kenpou/</link>
-      <pubDate>Tue, 27 Oct 2020 21:38:51 +0900</pubDate>
-      
-      <guid>https://luke-1220.github.io/project/kenpou/</guid>
-      <description>&lt;p&gt;文章を憲法風の文体に変換します。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Notch Wallpaper Generator</title>
-      <link>https://luke-1220.github.io/project/nwpg/</link>
-      <pubDate>Tue, 27 Oct 2020 21:36:33 +0900</pubDate>
-      
-      <guid>https://luke-1220.github.io/project/nwpg/</guid>
-      <description>&lt;p&gt;iPhone用のノッチ隠し、ノッチ風壁紙を作成できます。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Change Images to Cats</title>
-      <link>https://luke-1220.github.io/project/cats/</link>
-      <pubDate>Fri, 21 Aug 2020 17:05:44 +0900</pubDate>
-      
-      <guid>https://luke-1220.github.io/project/cats/</guid>
-      <description>&lt;p&gt;ページの画像が、猫の画像に変わります。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>School Timer</title>
-      <link>https://luke-1220.github.io/project/schooltimer/</link>
-      <pubDate>Wed, 29 Jul 2020 17:56:09 +0900</pubDate>
-      
-      <guid>https://luke-1220.github.io/project/schooltimer/</guid>
-      <description>&lt;p&gt;テストや時間割りの管理に使えるタイマー&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Waslendar</title>
-      <link>https://luke-1220.github.io/project/waslendar/</link>
-      <pubDate>Wed, 29 Jul 2020 17:46:50 +0900</pubDate>
-      
-      <guid>https://luke-1220.github.io/project/waslendar/</guid>
-      <description>&lt;p&gt;カレンダーを素早くチェック&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
+
+    <channel>
+        <title>Projects on Fusion</title>
+        <link>https://luke-1220.github.io/project/</link>
+        
+            <language>ja-jp</language>
+        
+        
+        <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
+        
+            <lastBuildDate>Tue, 22 Dec 2020 10:52:09 +0900</lastBuildDate>
+        
+        <atom:link href="https://luke-1220.github.io/project/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>YTCaption</title>
+                <link>https://luke-1220.github.io/project/ytcaption/</link>
+                <pubDate>Tue, 22 Dec 2020 10:52:09 +0900</pubDate>
+                <guid>https://luke-1220.github.io/project/ytcaption/</guid>
+                <description>YouTubeの字幕をCSSで簡単にカスタム
+</description>
+            </item>
+        
+            <item>
+                <title>Kenpo Converter</title>
+                <link>https://luke-1220.github.io/project/kenpou/</link>
+                <pubDate>Tue, 27 Oct 2020 21:38:51 +0900</pubDate>
+                <guid>https://luke-1220.github.io/project/kenpou/</guid>
+                <description>文章を憲法風の文体に変換します。
+</description>
+            </item>
+        
+            <item>
+                <title>Notch Wallpaper Generator</title>
+                <link>https://luke-1220.github.io/project/nwpg/</link>
+                <pubDate>Tue, 27 Oct 2020 21:36:33 +0900</pubDate>
+                <guid>https://luke-1220.github.io/project/nwpg/</guid>
+                <description>iPhone用のノッチ隠し、ノッチ風壁紙を作成できます。
+</description>
+            </item>
+        
+            <item>
+                <title>Change Images to Cats</title>
+                <link>https://luke-1220.github.io/project/cats/</link>
+                <pubDate>Fri, 21 Aug 2020 17:05:44 +0900</pubDate>
+                <guid>https://luke-1220.github.io/project/cats/</guid>
+                <description>ページの画像が、猫の画像に変わります。
+</description>
+            </item>
+        
+            <item>
+                <title>School Timer</title>
+                <link>https://luke-1220.github.io/project/schooltimer/</link>
+                <pubDate>Wed, 29 Jul 2020 17:56:09 +0900</pubDate>
+                <guid>https://luke-1220.github.io/project/schooltimer/</guid>
+                <description>テストや時間割りの管理に使えるタイマー
+</description>
+            </item>
+        
+            <item>
+                <title>Waslendar</title>
+                <link>https://luke-1220.github.io/project/waslendar/</link>
+                <pubDate>Wed, 29 Jul 2020 17:46:50 +0900</pubDate>
+                <guid>https://luke-1220.github.io/project/waslendar/</guid>
+                <description>カレンダーを素早くチェック
+</description>
+            </item>
+        
+    </channel>
 </rss>

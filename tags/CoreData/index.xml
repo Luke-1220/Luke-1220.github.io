@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+    <channel>
+        <title>CoreData on Fusion</title>
+        <link>https://luke-1220.github.io/tags/CoreData/</link>
+        
+            <language>ja-jp</language>
+        
+        
+        <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
+        
+            <lastBuildDate>Mon, 11 Jan 2021 12:00:00 +0900</lastBuildDate>
+        
+        <atom:link href="https://luke-1220.github.io/tags/CoreData/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>【Swift5】既存のプロジェクトにCoreDataを追加する</title>
+                <link>https://luke-1220.github.io/post/use-coredata/</link>
+                <pubDate>Mon, 11 Jan 2021 12:00:00 +0900</pubDate>
+                <guid>https://luke-1220.github.io/post/use-coredata/</guid>
+                <description>アプリ作成時に「Use Core Data」にチェックをつければ自動でこれらが追加されますが、後から使いたくなった時は少し面倒だったので、コピペで使えるようにまとめておきます。
+</description>
+            </item>
+        
+    </channel>
+</rss>
