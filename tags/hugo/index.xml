@@ -9,18 +9,9 @@
         
         <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
         
-            <lastBuildDate>Sat, 06 Feb 2021 16:16:57 +0900</lastBuildDate>
+            <lastBuildDate>Mon, 23 Nov 2020 10:08:41 +0900</lastBuildDate>
         
         <atom:link href="https://luke-1220.github.io/tags/Hugo/" rel="self" type="application/rss+xml" />
-        
-            <item>
-                <title>自作のHugoテーマを作った</title>
-                <link>https://luke-1220.github.io/post/mytheme/</link>
-                <pubDate>Sat, 06 Feb 2021 16:16:57 +0900</pubDate>
-                <guid>https://luke-1220.github.io/post/mytheme/</guid>
-                <description>今まではClarityテーマを使用していましたが、デザインが好みに合うものを作りたかったので、テーマを作ってみました。
-</description>
-            </item>
         
             <item>
                 <title>【Hugo】サイト内検索機能を実装した</title>

@@ -49,21 +49,6 @@
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/Hugo/</loc>
-    <lastmod>2021-02-10T21:14:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://luke-1220.github.io/categories/Hugo/</loc>
-    <lastmod>2021-02-10T21:14:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://luke-1220.github.io/post/mytheme/</loc>
-    <lastmod>2021-02-06T16:16:57+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://luke-1220.github.io/tags/C#/</loc>
     <lastmod>2021-02-03T12:00:00+09:00</lastmod>
   </url>
@@ -141,6 +126,16 @@
   <url>
     <loc>https://luke-1220.github.io/post/parameter/</loc>
     <lastmod>2020-11-23T15:53:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luke-1220.github.io/tags/Hugo/</loc>
+    <lastmod>2021-02-10T21:14:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luke-1220.github.io/categories/Hugo/</loc>
+    <lastmod>2021-02-10T21:14:00+09:00</lastmod>
   </url>
   
   <url>
