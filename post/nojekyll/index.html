@@ -9,7 +9,7 @@
 
     
     
-    <link rel="stylesheet" href="https://luke-1220.github.io/sass/main.min.f521987c4d91f1de3519aa928f408ab11bbad056ca910b3d0f659d08f2fa4df6.css" >
+    <link rel="stylesheet" href="https://luke-1220.github.io/sass/main.min.3e005fc5139921e30b25f0a3400ff27feb497b789ecfe19904f7d949876625d5.css" >
     <link rel="stylesheet" href='https://luke-1220.github.io/css/syntax.css'>
     <link rel="stylesheet" href='https://luke-1220.github.io/css/hamburgers.css'>
     
@@ -139,27 +139,27 @@
 </article>
     <div class="comments">
         <h3>Comments</h3>
+        <a class="disqus-show-comments">Show Comments</a>
         <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "fusion2020" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
+    <script>
+        $(document).ready(function() {
+          $('.disqus-show-comments').on('click', function() {
+            if (window.location.hostname == "localhost") {
+              return;
+            }
+            var disqus_shortname = 'fusion2020';
+            $.ajax({
+              type: "GET",
+              url: "http://" + disqus_shortname + ".disqus.com/embed.js",
+              dataType: "script",
+              cache: true
+            });
+            $(this).fadeOut();
+          });
+        });
+    </script>
 
 
 </div><aside class="sidebar">
