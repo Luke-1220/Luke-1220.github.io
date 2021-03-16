@@ -2,7 +2,7 @@
 
     <channel>
         <title>RSS on Fusion</title>
-        <link>https://luke-1220.github.io/tags/RSS/</link>
+        <link>https://luke-1220.github.io/tags/rss/</link>
         
             <language>ja-jp</language>
         
@@ -11,7 +11,7 @@
         
             <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0900</lastBuildDate>
         
-        <atom:link href="https://luke-1220.github.io/tags/RSS/" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luke-1220.github.io/tags/rss/" rel="self" type="application/rss+xml" />
         
             <item>
                 <title>【Swift5】RSSフィードのURLを見つける</title>

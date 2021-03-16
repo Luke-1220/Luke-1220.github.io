@@ -2,7 +2,7 @@
 
     <channel>
         <title>UserDefaults on Fusion</title>
-        <link>https://luke-1220.github.io/tags/UserDefaults/</link>
+        <link>https://luke-1220.github.io/tags/userdefaults/</link>
         
             <language>ja-jp</language>
         
@@ -11,7 +11,7 @@
         
             <lastBuildDate>Sun, 24 May 2020 00:00:00 +0900</lastBuildDate>
         
-        <atom:link href="https://luke-1220.github.io/tags/UserDefaults/" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luke-1220.github.io/tags/userdefaults/" rel="self" type="application/rss+xml" />
         
             <item>
                 <title>【Swift5】自作クラス（と配列）をUserDefaultsに簡単に保存する</title>

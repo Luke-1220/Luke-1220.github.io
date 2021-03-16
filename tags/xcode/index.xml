@@ -2,7 +2,7 @@
 
     <channel>
         <title>Xcode on Fusion</title>
-        <link>https://luke-1220.github.io/tags/Xcode/</link>
+        <link>https://luke-1220.github.io/tags/xcode/</link>
         
             <language>ja-jp</language>
         
@@ -11,7 +11,7 @@
         
             <lastBuildDate>Tue, 23 Jun 2020 00:00:00 +0900</lastBuildDate>
         
-        <atom:link href="https://luke-1220.github.io/tags/Xcode/" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luke-1220.github.io/tags/xcode/" rel="self" type="application/rss+xml" />
         
             <item>
                 <title>Macアプリの公証を済ませて「悪質なソフトウェア〜」が出ないようにする</title>

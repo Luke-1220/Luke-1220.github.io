@@ -2,7 +2,7 @@
 
     <channel>
         <title>Unity on Fusion</title>
-        <link>https://luke-1220.github.io/tags/Unity/</link>
+        <link>https://luke-1220.github.io/tags/unity/</link>
         
             <language>ja-jp</language>
         
@@ -11,7 +11,7 @@
         
             <lastBuildDate>Wed, 03 Feb 2021 12:00:00 +0900</lastBuildDate>
         
-        <atom:link href="https://luke-1220.github.io/tags/Unity/" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luke-1220.github.io/tags/unity/" rel="self" type="application/rss+xml" />
         
             <item>
                 <title>【Unity】一つのキーでカメラを順番に切り替えるスクリプト</title>

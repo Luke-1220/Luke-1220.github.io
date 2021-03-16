@@ -4,38 +4,38 @@
   
   <url>
     <loc>https://luke-1220.github.io/</loc>
-    <lastmod>2021-02-27T23:47:00+09:00</lastmod>
+    <lastmod>2021-03-16T08:45:48+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://luke-1220.github.io/categories/</loc>
-    <lastmod>2021-02-13T21:28:48+09:00</lastmod>
+    <lastmod>2021-03-16T08:45:48+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://luke-1220.github.io/post/</loc>
+    <lastmod>2021-03-16T08:45:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luke-1220.github.io/tags/python/</loc>
     <lastmod>2021-02-13T21:28:48+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/Python/</loc>
+    <loc>https://luke-1220.github.io/categories/python/</loc>
     <lastmod>2021-02-13T21:28:48+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/categories/Python/</loc>
-    <lastmod>2021-02-13T21:28:48+09:00</lastmod>
+    <loc>https://luke-1220.github.io/tags/swift/</loc>
+    <lastmod>2021-03-16T08:45:48+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/Swift/</loc>
-    <lastmod>2021-02-13T21:28:48+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://luke-1220.github.io/categories/Swift/</loc>
-    <lastmod>2021-02-13T21:28:48+09:00</lastmod>
+    <loc>https://luke-1220.github.io/categories/swift/</loc>
+    <lastmod>2021-03-16T08:45:48+09:00</lastmod>
   </url>
   
   <url>
@@ -45,21 +45,21 @@
   
   <url>
     <loc>https://luke-1220.github.io/tags/</loc>
-    <lastmod>2021-02-13T21:28:48+09:00</lastmod>
+    <lastmod>2021-03-16T08:45:48+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/C#/</loc>
+    <loc>https://luke-1220.github.io/tags/c#/</loc>
     <lastmod>2021-02-03T12:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/Unity/</loc>
+    <loc>https://luke-1220.github.io/tags/unity/</loc>
     <lastmod>2021-02-03T12:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/categories/Unity/</loc>
+    <loc>https://luke-1220.github.io/categories/unity/</loc>
     <lastmod>2021-02-03T12:00:00+09:00</lastmod>
   </url>
   
@@ -69,7 +69,12 @@
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/CoreData/</loc>
+    <loc>https://luke-1220.github.io/post/webview-dl/</loc>
+    <lastmod>2021-03-16T08:45:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luke-1220.github.io/tags/coredata/</loc>
     <lastmod>2021-01-12T12:00:00+09:00</lastmod>
   </url>
   
@@ -89,17 +94,17 @@
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/CSS/</loc>
+    <loc>https://luke-1220.github.io/tags/css/</loc>
     <lastmod>2020-12-22T09:46:52+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/categories/CSS/</loc>
+    <loc>https://luke-1220.github.io/categories/css/</loc>
     <lastmod>2020-12-22T09:46:52+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/Twitter/</loc>
+    <loc>https://luke-1220.github.io/tags/twitter/</loc>
     <lastmod>2020-12-22T09:46:52+09:00</lastmod>
   </url>
   
@@ -109,17 +114,17 @@
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/HTML/</loc>
+    <loc>https://luke-1220.github.io/tags/html/</loc>
     <lastmod>2021-02-10T21:14:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/JavaScript/</loc>
+    <loc>https://luke-1220.github.io/tags/javascript/</loc>
     <lastmod>2021-02-10T21:14:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/categories/JavaScript/</loc>
+    <loc>https://luke-1220.github.io/categories/javascript/</loc>
     <lastmod>2020-11-23T15:53:48+09:00</lastmod>
   </url>
   
@@ -129,12 +134,12 @@
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/Hugo/</loc>
+    <loc>https://luke-1220.github.io/tags/hugo/</loc>
     <lastmod>2021-02-10T21:14:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/categories/Hugo/</loc>
+    <loc>https://luke-1220.github.io/categories/hugo/</loc>
     <lastmod>2021-02-10T21:14:00+09:00</lastmod>
   </url>
   
@@ -169,7 +174,7 @@
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/Robust/</loc>
+    <loc>https://luke-1220.github.io/tags/robust/</loc>
     <lastmod>2020-08-04T15:02:06+09:00</lastmod>
   </url>
   
@@ -179,17 +184,17 @@
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/GitHub/</loc>
+    <loc>https://luke-1220.github.io/tags/github/</loc>
     <lastmod>2021-02-10T21:14:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/categories/GitHub/</loc>
+    <loc>https://luke-1220.github.io/categories/github/</loc>
     <lastmod>2021-02-10T21:14:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/GitHub-Pages/</loc>
+    <loc>https://luke-1220.github.io/tags/github-pages/</loc>
     <lastmod>2021-02-10T21:14:00+09:00</lastmod>
   </url>
   
@@ -224,17 +229,17 @@
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/Xcode/</loc>
+    <loc>https://luke-1220.github.io/tags/xcode/</loc>
     <lastmod>2020-06-23T00:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/categories/Xcode/</loc>
+    <loc>https://luke-1220.github.io/categories/xcode/</loc>
     <lastmod>2020-06-23T00:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/RSS/</loc>
+    <loc>https://luke-1220.github.io/tags/rss/</loc>
     <lastmod>2020-07-27T20:18:32+09:00</lastmod>
   </url>
   
@@ -254,7 +259,7 @@
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/Google%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0/</loc>
+    <loc>https://luke-1220.github.io/tags/google%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0/</loc>
     <lastmod>2020-07-27T20:13:36+09:00</lastmod>
   </url>
   
@@ -264,7 +269,7 @@
   </url>
   
   <url>
-    <loc>https://luke-1220.github.io/tags/UserDefaults/</loc>
+    <loc>https://luke-1220.github.io/tags/userdefaults/</loc>
     <lastmod>2020-07-18T18:13:08+09:00</lastmod>
   </url>
   

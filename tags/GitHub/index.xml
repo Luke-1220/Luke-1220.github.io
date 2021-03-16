@@ -2,7 +2,7 @@
 
     <channel>
         <title>GitHub on Fusion</title>
-        <link>https://luke-1220.github.io/tags/GitHub/</link>
+        <link>https://luke-1220.github.io/tags/github/</link>
         
             <language>ja-jp</language>
         
@@ -11,7 +11,7 @@
         
             <lastBuildDate>Thu, 30 Jul 2020 18:18:55 +0900</lastBuildDate>
         
-        <atom:link href="https://luke-1220.github.io/tags/GitHub/" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luke-1220.github.io/tags/github/" rel="self" type="application/rss+xml" />
         
             <item>
                 <title>【Hugo】JekyllじゃないサイトをGitHubに上げたらエラーが出た</title>

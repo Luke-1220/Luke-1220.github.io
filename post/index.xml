@@ -33,6 +33,14 @@
             </item>
         
             <item>
+                <title>【Swift5】WKWebViewで動的に生成されたファイルをダウンロードする</title>
+                <link>https://luke-1220.github.io/post/webview-dl/</link>
+                <pubDate>Fri, 15 Jan 2021 00:00:00 +0900</pubDate>
+                <guid>https://luke-1220.github.io/post/webview-dl/</guid>
+                <description></description>
+            </item>
+        
+            <item>
                 <title>【Swift5】既存のプロジェクトにCoreDataを追加する</title>
                 <link>https://luke-1220.github.io/post/use-coredata/</link>
                 <pubDate>Mon, 11 Jan 2021 12:00:00 +0900</pubDate>
