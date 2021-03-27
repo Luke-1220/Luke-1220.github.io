@@ -9,9 +9,17 @@
         
         <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
         
-            <lastBuildDate>Sat, 13 Feb 2021 21:28:48 +0900</lastBuildDate>
+            <lastBuildDate>Sat, 27 Mar 2021 10:49:12 +0900</lastBuildDate>
         
         <atom:link href="https://luke-1220.github.io/categories/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>.NET</title>
+                <link>https://luke-1220.github.io/categories/.net/</link>
+                <pubDate>Sat, 27 Mar 2021 10:49:12 +0900</pubDate>
+                <guid>https://luke-1220.github.io/categories/.net/</guid>
+                <description></description>
+            </item>
         
             <item>
                 <title>Python</title>

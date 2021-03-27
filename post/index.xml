@@ -9,9 +9,17 @@
         
         <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
         
-            <lastBuildDate>Sat, 13 Feb 2021 21:28:48 +0900</lastBuildDate>
+            <lastBuildDate>Sat, 27 Mar 2021 10:49:12 +0900</lastBuildDate>
         
         <atom:link href="https://luke-1220.github.io/post/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>【.NET】拡張子の関連付けを削除する</title>
+                <link>https://luke-1220.github.io/post/csharp-association/</link>
+                <pubDate>Sat, 27 Mar 2021 10:49:12 +0900</pubDate>
+                <guid>https://luke-1220.github.io/post/csharp-association/</guid>
+                <description></description>
+            </item>
         
             <item>
                 <title>SwiftとPythonの文法比較</title>
@@ -136,15 +144,6 @@
                 <pubDate>Mon, 25 May 2020 00:00:00 +0900</pubDate>
                 <guid>https://luke-1220.github.io/post/pre-fill-form/</guid>
                 <description>アプリの不具合の報告などで、OS情報やアプリのバージョンなどの情報があるととても助かりますよね。 そこで今回は、それらの項目を自動入力してくれるフォームの作り方を紹介します。
-</description>
-            </item>
-        
-            <item>
-                <title>【Swift5】自作クラス（と配列）をUserDefaultsに簡単に保存する</title>
-                <link>https://luke-1220.github.io/post/original-class-save/</link>
-                <pubDate>Sun, 24 May 2020 00:00:00 +0900</pubDate>
-                <guid>https://luke-1220.github.io/post/original-class-save/</guid>
-                <description>この記事では自作クラスをUserDefaultsに簡単に保存する関数を紹介します。
 </description>
             </item>
         

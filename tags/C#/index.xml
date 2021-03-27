@@ -9,9 +9,17 @@
         
         <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
         
-            <lastBuildDate>Wed, 03 Feb 2021 12:00:00 +0900</lastBuildDate>
+            <lastBuildDate>Sat, 27 Mar 2021 10:49:12 +0900</lastBuildDate>
         
         <atom:link href="https://luke-1220.github.io/tags/c#/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>【.NET】拡張子の関連付けを削除する</title>
+                <link>https://luke-1220.github.io/post/csharp-association/</link>
+                <pubDate>Sat, 27 Mar 2021 10:49:12 +0900</pubDate>
+                <guid>https://luke-1220.github.io/post/csharp-association/</guid>
+                <description></description>
+            </item>
         
             <item>
                 <title>【Unity】一つのキーでカメラを順番に切り替えるスクリプト</title>

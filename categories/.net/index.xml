@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+    <channel>
+        <title>.NET on Fusion</title>
+        <link>https://luke-1220.github.io/categories/.net/</link>
+        
+            <language>ja-jp</language>
+        
+        
+        <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
+        
+            <lastBuildDate>Sat, 27 Mar 2021 10:49:12 +0900</lastBuildDate>
+        
+        <atom:link href="https://luke-1220.github.io/categories/.net/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>【.NET】拡張子の関連付けを削除する</title>
+                <link>https://luke-1220.github.io/post/csharp-association/</link>
+                <pubDate>Sat, 27 Mar 2021 10:49:12 +0900</pubDate>
+                <guid>https://luke-1220.github.io/post/csharp-association/</guid>
+                <description></description>
+            </item>
+        
+    </channel>
+</rss>
