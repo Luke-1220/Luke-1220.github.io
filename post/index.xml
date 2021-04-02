@@ -9,9 +9,17 @@
         
         <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
         
-            <lastBuildDate>Sat, 27 Mar 2021 10:49:12 +0900</lastBuildDate>
+            <lastBuildDate>Fri, 02 Apr 2021 09:36:05 +0900</lastBuildDate>
         
         <atom:link href="https://luke-1220.github.io/post/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>AirPodsをMacで使うなら「AirBuddy2」は必須</title>
+                <link>https://luke-1220.github.io/post/airbuddy2/</link>
+                <pubDate>Fri, 02 Apr 2021 09:36:05 +0900</pubDate>
+                <guid>https://luke-1220.github.io/post/airbuddy2/</guid>
+                <description></description>
+            </item>
         
             <item>
                 <title>【.NET】拡張子の関連付けを削除する</title>
@@ -135,15 +143,6 @@
                 <pubDate>Sun, 07 Jun 2020 00:00:00 +0900</pubDate>
                 <guid>https://luke-1220.github.io/post/get-related-articles/</guid>
                 <description>今回は、ニュースアプリの記事ページの一番下にある「関連記事」を選ぶ関数を作ったので共有したいと思います。
-</description>
-            </item>
-        
-            <item>
-                <title>【Swift5】Googleフォームにあらかじめ自動入力する</title>
-                <link>https://luke-1220.github.io/post/pre-fill-form/</link>
-                <pubDate>Mon, 25 May 2020 00:00:00 +0900</pubDate>
-                <guid>https://luke-1220.github.io/post/pre-fill-form/</guid>
-                <description>アプリの不具合の報告などで、OS情報やアプリのバージョンなどの情報があるととても助かりますよね。 そこで今回は、それらの項目を自動入力してくれるフォームの作り方を紹介します。
 </description>
             </item>
         
