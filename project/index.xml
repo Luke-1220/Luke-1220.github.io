@@ -9,9 +9,17 @@
         
         <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
         
-            <lastBuildDate>Tue, 22 Dec 2020 10:52:09 +0900</lastBuildDate>
+            <lastBuildDate>Wed, 24 Mar 2021 08:30:00 +0900</lastBuildDate>
         
         <atom:link href="https://luke-1220.github.io/project/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>Zipintosh</title>
+                <link>https://luke-1220.github.io/project/zipintosh/</link>
+                <pubDate>Wed, 24 Mar 2021 08:30:00 +0900</pubDate>
+                <guid>https://luke-1220.github.io/project/zipintosh/</guid>
+                <description>masOSには.zipファイルをダブルクリックしただけで解凍してくれる標準ソフトがあり、それに加えてサードパーティ製のソフトを使うことで、.</description>
+            </item>
         
             <item>
                 <title>YTCaption</title>

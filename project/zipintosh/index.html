@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Swift5で初回起動判定 | Fusion</title>
+    <title>Zipintosh | Fusion</title>
     
     <meta name="generator" content="Hugo 0.80.0" />
 
     
-      <meta name="date" content='20-07-18' scheme="Year-Month-Day">
+      <meta name="date" content='21-03-24' scheme="Year-Month-Day">
     
 
     
@@ -27,10 +27,10 @@
 
     
 
-<meta property="og:title" content="Swift5で初回起動判定 | Fusion" />
-<meta property="og:description" content="n番煎じのネタだと思いますが、Swiftでアプリの初回起動処理を行う方法です。" />
+<meta property="og:title" content="Zipintosh | Fusion" />
+<meta property="og:description" content="ダブルクリックで一瞬解凍" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://luke-1220.github.io/post/firstvisit/" />
+<meta property="og:url" content="https://luke-1220.github.io/project/zipintosh/" />
 
 
 
@@ -39,10 +39,10 @@
     
     
         
-        <meta property="og:image" content="https://luke-1220.github.io/images/swift_hu4f1ab54411de33f7c761e2394e828684_44639_1500x900_fill_box_smart1_2.png" />
+        <meta property="og:image" content="https://luke-1220.github.io/images/thumbnail_huf905b1b09beaf99ffff40befc5b96eb2_49787_1500x900_fill_box_smart1_2.png" />
     
-<meta property="article:published_time" content="2020-07-18T00:00:00+09:00" />
-<meta property="article:modified_time" content="2020-07-18T00:00:00+09:00" />
+<meta property="article:published_time" content="2021-03-24T08:30:00+09:00" />
+<meta property="article:modified_time" content="2021-03-24T08:30:00+09:00" />
 
 
   <meta name="twitter:card" content="summary">
@@ -100,23 +100,15 @@
 </header><div class="container">
             <div><article>
     
-        
-        
-            
-            <div class="headerImage">
-                <img src="/images/swift_hu4f1ab54411de33f7c761e2394e828684_44639_1500x900_fill_box_smart1_2.png" class="eyecatch">
-            </div>
-        
-    
 
     <div class="articleHeader">
-        <h1>Swift5で初回起動判定</h1>
+        <h1>Zipintosh</h1>
 
-        <p class="description"></p>
+        <p class="description">ダブルクリックで一瞬解凍</p>
 
         <div class="postDate">
             <i class="fas fa-calendar-alt"></i>
-            <time>2020/07/18</time>
+            <time>2021/03/24</time>
             
         </div>
 
@@ -125,11 +117,6 @@
         </div>
 
         
-            <div class="tags">
-                    
-                        
-                        <a href='https://luke-1220.github.io/tags/swift' class="tag">Swift</a>
-            </div>
         <br>
 
     </div>
@@ -137,20 +124,65 @@
     
 
     <div id="content">
-        <p>n番煎じのネタだと思いますが、Swiftでアプリの初回起動処理を行う方法です。</p>
-<div class="highlight"><pre class="chroma"><code class="language-Swift" data-lang="Swift"><span class="kd">func</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
-    <span class="c1">//UserDefaults.standard.set(false, forKey: &#34;visit&#34;) //リセット用</span>
-    <span class="kd">let</span> <span class="nv">visit</span> <span class="p">=</span> <span class="n">UserDefaults</span><span class="p">.</span><span class="n">standard</span><span class="p">.</span><span class="n">bool</span><span class="p">(</span><span class="n">forKey</span><span class="p">:</span> <span class="s">&#34;visit&#34;</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">visit</span> <span class="p">{</span>
-        <span class="c1">//二回目以降</span>
-        <span class="bp">print</span><span class="p">(</span><span class="s">&#34;二回目以降&#34;</span><span class="p">)</span>
-    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-        <span class="c1">//初回アクセス</span>
-        <span class="bp">print</span><span class="p">(</span><span class="s">&#34;初回起動&#34;</span><span class="p">)</span>
-        <span class="n">UserDefaults</span><span class="p">.</span><span class="n">standard</span><span class="p">.</span><span class="kr">set</span><span class="p">(</span><span class="kc">true</span><span class="p">,</span> <span class="n">forKey</span><span class="p">:</span> <span class="s">&#34;visit&#34;</span><span class="p">)</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div><p><code>setup()</code>をAppDelegateとかSceneDelegateに追加するだけです。</p>
+        <p>masOSには<code>.zip</code>ファイルをダブルクリックしただけで解凍してくれる標準ソフトがあり、それに加えてサードパーティ製のソフトを使うことで、<code>.rar</code>や<code>.7z</code>などの形式でもダブルクリックで解凍できるようになります。</p>
+<p>一方でWindowsは、<code>.zip</code>はダブルクリックで閲覧、右クリックから解凍という仕様で、有名なサードパーティ製ソフトでも、解凍に一手間必要になります。</p>
+<p>そこで、Windowsでもダブルクリックだけで解凍できる「Zipintosh」を作成しました。</p>
+<p>Zipintoshは<a href="https://ja.wikipedia.org/wiki/7-Zip">7-zip</a>ベースのため、互換性や速度などは<a href="https://ja.wikipedia.org/wiki/7-Zip">7-zip</a>とほとんど変わりません。</p>
+<h2 id="ダウンロード">ダウンロード</h2>
+<div class="box" style="background-color: #eeeded; padding: 0.8rem; color: #757373;">
+    
+ダウンロード前に、下の注意事項をよくお読みください。
+</div>
+<div style="text-align: center;">
+    <a class="shortcode_button" href=''  style="display: inline-block; margin: 0.8rem 0; text-align: center; background-color: #55aad4; color: #fff; padding: 0.8rem 1.5rem; font-size: 125%;">ダウンロード
+            
+            
+                <i class="fa fa-download" aria-hidden="true"></i>
+            
+            
+            
+            
+        
+    </a>
+</div>
+<h2 id="注意事項">注意事項</h2>
+<ul>
+<li>
+<p>初めて起動する時に警告が出ることがありますが、これはZipintoshに有料の署名がされていないためです。</p>
+</li>
+<li>
+<p>圧縮ファイルを直接解凍できるソフトの欠点に、<strong>危険なファイルを気付かずに解凍してしまう可能性がある</strong>という点があります。<br>
+圧縮ファイルが怪しいと思ったら、Zipintoshで解凍するのではなく、7-Zip等の解凍前に中身が確認できるソフトを使用するようにしてください。</p>
+</li>
+<li>
+<p>当ソフトの使用に伴う損失などについては、開発者は責任を負いかねます。</p>
+</li>
+</ul>
+<h2 id="使い方">使い方</h2>
+<h2 id="開発環境">開発環境</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>言語</td>
+<td>C#</td>
+</tr>
+<tr>
+<td>エディタ</td>
+<td>Visual Studio</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Windows10</td>
+</tr>
+</tbody>
+</table>
+
     </div>
 
 </article>
@@ -188,68 +220,6 @@
 
 
 
-
-    <div class="related">
-        <h3>See Also</h3>
-        <div class="related_container">
-            
-            <div>
-                <a href="https://luke-1220.github.io/post/feed-find/">
-                    
-                        
-                        
-                        
-                            
-                            <img src="/images/swift_hu4f1ab54411de33f7c761e2394e828684_44639_1500x900_fill_box_smart1_2.png" class="relatedEyecatch" loading="lazy">
-                        
-                    
-                </a>
-                <a href="/post/feed-find/">【Swift5】RSSフィードのURLを見つける</a>
-            </div>
-            
-            <div>
-                <a href="https://luke-1220.github.io/post/get-related-articles/">
-                    
-                        
-                        
-                        
-                            
-                            <img src="/images/swift_hu4f1ab54411de33f7c761e2394e828684_44639_1500x900_fill_box_smart1_2.png" class="relatedEyecatch" loading="lazy">
-                        
-                    
-                </a>
-                <a href="/post/get-related-articles/">【Swift5】キーワードの重複で「関連記事」を取得してみる</a>
-            </div>
-            
-            <div>
-                <a href="https://luke-1220.github.io/post/pre-fill-form/">
-                    
-                        
-                        
-                            
-                            <img src="/post/pre-fill-form/image1_hu104b4fa942150176b10383b58325b78a_73269_1000x600_fill_box_smart1_2.png" class="relatedEyecatch" loading="lazy">
-                        
-                    
-                </a>
-                <a href="/post/pre-fill-form/">【Swift5】Googleフォームにあらかじめ自動入力する</a>
-            </div>
-            
-            <div>
-                <a href="https://luke-1220.github.io/post/original-class-save/">
-                    
-                        
-                        
-                        
-                            
-                            <img src="/images/swift_hu4f1ab54411de33f7c761e2394e828684_44639_1500x900_fill_box_smart1_2.png" class="relatedEyecatch" loading="lazy">
-                        
-                    
-                </a>
-                <a href="/post/original-class-save/">【Swift5】自作クラス（と配列）をUserDefaultsに簡単に保存する</a>
-            </div>
-            
-        </div>
-    </div>
 </div><aside class="sidebar">
 
     
