@@ -8,7 +8,7 @@
     <meta name="generator" content="Hugo 0.80.0" />
 
     
-      <meta name="date" content='21-03-16' scheme="Year-Month-Day">
+      <meta name="date" content='21-04-28' scheme="Year-Month-Day">
     
 
     
@@ -42,7 +42,7 @@
         <meta property="og:image" content="https://luke-1220.github.io/images/swift_hu4f1ab54411de33f7c761e2394e828684_44639_1500x900_fill_box_smart1_2.png" />
     
 <meta property="article:published_time" content="2021-01-15T00:00:00+09:00" />
-<meta property="article:modified_time" content="2021-03-16T08:45:48+09:00" />
+<meta property="article:modified_time" content="2021-04-28T19:17:00+09:00" />
 
 
   <meta name="twitter:card" content="summary">
@@ -119,7 +119,7 @@
             <time>2021/01/15</time>
             
                 <i class="fas fa-sync"></i>
-                <time>2021/03/16</time>
+                <time>2021/04/28</time>
             
         </div>
 
@@ -145,6 +145,7 @@
   <ul>
     <li><a href="#はじめに">はじめに</a>
       <ul>
+        <li><a href="#追記">追記</a></li>
         <li><a href="#blobとは">Blobとは</a></li>
         <li><a href="#datauriとは">DataURIとは</a></li>
       </ul>
@@ -169,6 +170,12 @@
 <p>静的なファイル、例えば「〇〇.png」とかなら、既にファイルのURLが分かっているので簡単にダウンロードできます。</p>
 <p>しかし、生成されたファイルがBlobやDataURI（Base64）などの形式で出力されていると、それ自体はファイル名や拡張子を保持していないので、Swift側で名前をつける必要が出てきます。（PCのブラウザだと勝手にこれらの保存処理をやってくれます）</p>
 <p>ここでは、JSONファイルを文字列として送信することで、生成されたファイルとファイル名を同時に送る方法を書いておこうと思います。</p>
+<h3 id="追記">追記</h3>
+<ul>
+<li><a href="https://zenn.dev/bricklife/articles/how-to-download-blob-on-wkwebview">iOS 14.5のWKWebViewでBlobオブジェクトをダウンロードする</a></li>
+</ul>
+<p>先日一般公開されたiOS14.5では、WKWebView標準の機能でBlobファイルがダウンロードできるようになったそうです。</p>
+<p>iOS14.5以降をターゲットにしたアプリの場合は、こちらを利用する方がいいかと思います。</p>
 <hr>
 <h3 id="blobとは">Blobとは</h3>
 <blockquote>
@@ -193,6 +200,7 @@
 <p><code>userContentController</code>でDataURIを送っただけではファイル名も拡張子もわからないので、JSONを使って二つの文字列を送れるようにします。</p>
 <h2 id="js側の手順">JS側の手順</h2>
 <p><code>name</code>と<code>blob</code>を送りたい場合のサンプルです。</p>
+<p>blob形式からDataURIに変換してSwift側に送信しています。</p>
 <div class="highlight"><pre class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="kr">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="s2">&#34;sample.png&#34;</span><span class="p">;</span>
 <span class="kr">const</span> <span class="nx">blob</span> <span class="o">=</span> <span class="s2">&#34;〇〇&#34;</span><span class="p">;</span>
 
@@ -457,6 +465,7 @@
   <ul>
     <li><a href="#はじめに">はじめに</a>
       <ul>
+        <li><a href="#追記">追記</a></li>
         <li><a href="#blobとは">Blobとは</a></li>
         <li><a href="#datauriとは">DataURIとは</a></li>
       </ul>
