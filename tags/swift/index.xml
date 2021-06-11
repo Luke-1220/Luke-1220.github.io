@@ -9,9 +9,17 @@
         
         <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
         
-            <lastBuildDate>Sat, 13 Feb 2021 21:28:48 +0900</lastBuildDate>
+            <lastBuildDate>Sun, 18 Apr 2021 20:41:06 +0900</lastBuildDate>
         
         <atom:link href="https://luke-1220.github.io/tags/swift/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>【macOS】&#34;ログイン時に起動&#34;を簡単に実装できる「LaunchAtLogin」</title>
+                <link>https://luke-1220.github.io/post/launchatlogin/</link>
+                <pubDate>Sun, 18 Apr 2021 20:41:06 +0900</pubDate>
+                <guid>https://luke-1220.github.io/post/launchatlogin/</guid>
+                <description></description>
+            </item>
         
             <item>
                 <title>SwiftとPythonの文法比較</title>

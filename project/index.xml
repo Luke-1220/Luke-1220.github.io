@@ -9,9 +9,17 @@
         
         <copyright>Copyright © 2021 Fusion All Rights Reserved.</copyright>
         
-            <lastBuildDate>Tue, 22 Dec 2020 10:52:09 +0900</lastBuildDate>
+            <lastBuildDate>Wed, 24 Mar 2021 08:30:00 +0900</lastBuildDate>
         
         <atom:link href="https://luke-1220.github.io/project/" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>New-Zenkaku</title>
+                <link>https://luke-1220.github.io/project/new-zenkaku/</link>
+                <pubDate>Wed, 24 Mar 2021 08:30:00 +0900</pubDate>
+                <guid>https://luke-1220.github.io/project/new-zenkaku/</guid>
+                <description>New-Zenkakuは、全角の英数字やスペースをハイライトして見やすくするVSCode拡張機能です。 Mosapride氏のZenkakuと</description>
+            </item>
         
             <item>
                 <title>YTCaption</title>
