@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://luke-1220.github.io/sass/main.min.055bf496e02dcbd5a6ae97143599b6cf2fbc5b3610acc88b243d3ea9dae9ef7b.css" >
     <link rel="stylesheet" href='https://luke-1220.github.io/css/syntax.css'>
     <link rel="stylesheet" href='https://luke-1220.github.io/css/hamburgers.css'>
+    <link rel="stylesheet" href='https://luke-1220.github.io/css/lightbox.css'/>
     
     <script type="text/javascript" src='https://luke-1220.github.io/js/jquery-3.5.1.min.js'></script>
     <script defer type="text/javascript" src='https://luke-1220.github.io/js/font-awesome.js'></script>
@@ -162,7 +163,7 @@
 
     <div id="content">
         <p>近年Appleの野良アプリの制限が強化されているようで、公証（Notarization）を行なっていないアプリをネットからダウンロードして開こうとすると以下のような表示が出てきてしまいます。</p>
-<p><img src="ss1.png" alt=""></p>
+<a href='./ss1.png' data-lightbox="auth" ><img src='./ss1.png'></img></a>
 <p>僕の開発したアプリも初めはこの警告が出てきていましたが、以下の手順で解決しました。
 ターミナルでも可能ですが、Xcodeでの手順を解説します。</p>
 <h2 id="前提">前提</h2>
@@ -175,40 +176,40 @@
 <h3 id="provisioning-profileの作成">Provisioning Profileの作成</h3>
 <p><a href="https://developer.apple.com/account/resources/profiles/">Certificates, Identifiers &amp; Profiles</a>を開いて、profile→「+」からプロファイルを作成します。</p>
 <p><a href="https://i-app-tec.com/ios/provisioning-profile.html">このページ</a>が参考になりますが、違う点だけ書いておきます。</p>
-<p><img src="ss2.png" alt=""></p>
+<a href='./ss2.png' data-lightbox="auth" ><img src='./ss2.png'></img></a>
 <p>「App Store」ではなく「Developer ID」を選択してください。</p>
-<p><img src="ss3.png" alt=""></p>
+<a href='./ss3.png' data-lightbox="auth" ><img src='./ss3.png'></img></a>
 <p>次に進んだらApp IDを選択します。</p>
 <h3 id="公証を受ける">公証を受ける</h3>
 <p>アプリを一度提出する必要がありますが、App Storeに比べるとだいぶ楽だと思います。</p>
 <p>Xcode上部のバーのWindow→Organizerをクリックしてオーガナイザーを開いてください。</p>
-<p><img src="ss4.png" alt=""></p>
+<a href='./ss4.png' data-lightbox="auth" ><img src='./ss4.png'></img></a>
 <p>公証を受けるビルドを選択し（ビルドごとに公証に出すみたい？）「Distribute App」をクリック。</p>
-<p><img src="ss5.png" alt=""></p>
+<a href='./ss5.png' data-lightbox="auth" ><img src='./ss5.png'></img></a>
 <p>Developer IDを選択します。</p>
-<p><img src="ss6.png" alt=""></p>
+<a href='./ss6.png' data-lightbox="auth" ><img src='./ss6.png'></img></a>
 <p>Uploadを選択。Exportを選ぶと公証を通さずにアプリを配布できます。
 （今までずっとそっちを選択していました）</p>
-<p><img src="ss7.png" alt=""></p>
+<a href='./ss7.png' data-lightbox="auth" ><img src='./ss7.png'></img></a>
 <p>上を選ぶと自動でやってくれますが、念の為Manuallyを選択。</p>
-<p><img src="ss8.png" alt=""></p>
+<a href='./ss8.png' data-lightbox="auth" ><img src='./ss8.png'></img></a>
 <p>Developer IDとProvisioning Profileを選びます。これでUploadすると公証が始まります。</p>
 <h3 id="公証中">公証中</h3>
 <p>Organizerから、「Distribute App」→「Developer ID」と行くと、公証中という表示が英語で出てきます。</p>
 <p>公証の間は、グレーの時計マークが表示されています。</p>
-<p><img src="ss11.png" alt=""></p>
+<a href='./ss11.png' data-lightbox="auth" ><img src='./ss11.png'></img></a>
 <h3 id="公証後">公証後</h3>
-<p><img src="ss9.png" alt=""></p>
+<a href='./ss9.png' data-lightbox="auth" ><img src='./ss9.png'></img></a>
 <p>完了するとチェックマークが出てきます。たったの数分で完了しました。
 右下のExportでアプリを出力できます。</p>
 <h3 id="追記-失敗してしまう場合">追記: 失敗してしまう場合</h3>
-<p><img src="ss12.png" alt=""></p>
+<a href='./ss12.png' data-lightbox="auth" ><img src='./ss12.png'></img></a>
 <p>一度このようなエラーが出てしまい、公証に失敗してしまったことがありました。</p>
-<p><img src="ss13.png" alt=""></p>
+<a href='./ss13.png' data-lightbox="auth" ><img src='./ss13.png'></img></a>
 <p>原因はApple Developer Programのサイト上で利用規約に同意していなかったからでした。</p>
 <p>利用規約は定期的に更新されていて、その都度同意ボタンを押す必要があるので、注意が必要です。</p>
 <h2 id="おわりに">おわりに</h2>
-<p><img src="ss10.png" alt=""></p>
+<a href='./ss10.png' data-lightbox="auth" ><img src='./ss10.png'></img></a>
 <p>上記の手順を行なうと、このような表示に変わります。
 家マークの⚠️が消えれば完了です。</p>
 <h3 id="参考">参考</h3>
@@ -394,5 +395,11 @@
     <div class="footerContent">
         <p>Copyright © 2021 Fusion All Rights Reserved.</p>
     </div>
-</footer></body>
+</footer>
+<script type="text/javascript" src='https://luke-1220.github.io/js/lightbox.js'></script>
+<script>
+    lightbox.option({
+      'disableScrolling': true,
+    })
+</script></body>
 </html>

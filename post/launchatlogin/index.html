@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://luke-1220.github.io/sass/main.min.055bf496e02dcbd5a6ae97143599b6cf2fbc5b3610acc88b243d3ea9dae9ef7b.css" >
     <link rel="stylesheet" href='https://luke-1220.github.io/css/syntax.css'>
     <link rel="stylesheet" href='https://luke-1220.github.io/css/hamburgers.css'>
+    <link rel="stylesheet" href='https://luke-1220.github.io/css/lightbox.css'/>
     
     <script type="text/javascript" src='https://luke-1220.github.io/js/jquery-3.5.1.min.js'></script>
     <script defer type="text/javascript" src='https://luke-1220.github.io/js/font-awesome.js'></script>
@@ -167,17 +168,17 @@
 <h2 id="インストール方法">インストール方法</h2>
 <p>このライブラリではCocoapodsが使えないので、Swift Package Managerを使う方法を載せておきます。</p>
 <p>Carthageを使ってインストールすることもできます。</p>
-<p><img src="./ss1.png" alt=""></p>
+<a href='./ss1.png' data-lightbox="lal" ><img src='./ss1.png'></img></a>
 <p>「TARGETS」の「General」タブにある「Frameworks, Libraries, and Embedded Content」という所の＋ボタンを押します。</p>
-<p><img src="./ss2.png" alt=""></p>
+<a href='./ss2.png' data-lightbox="lal" ><img src='./ss2.png'></img></a>
 <p>出てきたポップアップ画面の左下「Add Other&hellip;」を押して、「Add Package Dependency&hellip;」を選択します。</p>
-<p><img src="./ss3.png" alt=""></p>
+<a href='./ss3.png' data-lightbox="lal" ><img src='./ss3.png'></img></a>
 <p>上部のバーに<code>https://github.com/sindresorhus/LaunchAtLogin</code>と入力してNextを押します。</p>
-<p><img src="./ss4.png" alt=""></p>
+<a href='./ss4.png' data-lightbox="lal" ><img src='./ss4.png'></img></a>
 <p>バージョンを聞かれるので、特に指定がなければNextで次に進みます。</p>
-<p><img src="./ss5.png" alt=""></p>
+<a href='./ss5.png' data-lightbox="lal" ><img src='./ss5.png'></img></a>
 <p>最後にこのように「LaunchAtLogin」と出てくるので、Finishを押せばインストール完了です。</p>
-<p><img src="./ss6.png" alt=""></p>
+<a href='./ss6.png' data-lightbox="lal" ><img src='./ss6.png'></img></a>
 <p>次に、「TARGETS」の「Build Phases」タブにある左上の＋ボタンを押して「New Run Script Phase」を選択し、「shell」のところに<code>/bin/sh ${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh</code>をコピペします。</p>
 <p>Carthageではコピーするパスが違うようなので注意してください。</p>
 <h2 id="使い方">使い方</h2>
@@ -434,5 +435,11 @@
     <div class="footerContent">
         <p>Copyright © 2021 Fusion All Rights Reserved.</p>
     </div>
-</footer></body>
+</footer>
+<script type="text/javascript" src='https://luke-1220.github.io/js/lightbox.js'></script>
+<script>
+    lightbox.option({
+      'disableScrolling': true,
+    })
+</script></body>
 </html>

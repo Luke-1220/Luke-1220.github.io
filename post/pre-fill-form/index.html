@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://luke-1220.github.io/sass/main.min.055bf496e02dcbd5a6ae97143599b6cf2fbc5b3610acc88b243d3ea9dae9ef7b.css" >
     <link rel="stylesheet" href='https://luke-1220.github.io/css/syntax.css'>
     <link rel="stylesheet" href='https://luke-1220.github.io/css/hamburgers.css'>
+    <link rel="stylesheet" href='https://luke-1220.github.io/css/lightbox.css'/>
     
     <script type="text/javascript" src='https://luke-1220.github.io/js/jquery-3.5.1.min.js'></script>
     <script defer type="text/javascript" src='https://luke-1220.github.io/js/font-awesome.js'></script>
@@ -172,10 +173,10 @@
 <h3 id="2-urlを生成">2. URLを生成</h3>
 <p>フォーム作成画面の右上にある、・が縦に3つ並んだメニューボタンから、「事前入力したURLを取得」をクリックします。
 するとフォーム入力画面に飛ぶので、事前入力しておきたい項目に分かりやすい文字列を入力しておきます。</p>
-<p><img src="./image1.png" alt="image1"></p>
+<a href='./image1.png' data-lightbox="form" ><img src='./image1.png'></img></a>
 <p>「リンクを取得」をクリックするとURLが生成されます。
 画面左下の「リンクをコピー」を押してコピーしておきましょう。</p>
-<p><img src="./image2.png" alt="image2"></p>
+<a href='./image2.png' data-lightbox="form" ><img src='./image2.png'></img></a>
 <p>自分の場合はこのようなリンクになりました。</p>
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScUGRP-Pbs0bpBw2MtwjN6OpxeoHgUjloGV-OMNVOBvEkLJ6A/viewform?usp=pp_url&amp;entry.1009686721=osversion&amp;entry.1835889012=appversion">https://docs.google.com/forms/d/e/1FAIpQLScUGRP-Pbs0bpBw2MtwjN6OpxeoHgUjloGV-OMNVOBvEkLJ6A/viewform?usp=pp_url&amp;entry.1009686721=osversion&amp;entry.1835889012=appversion</a></p>
 <h3 id="3-os情報アプリのバージョンを取得">3. OS情報、アプリのバージョンを取得</h3>
@@ -196,7 +197,7 @@
 <div class="highlight"><pre class="chroma"><code class="language-Swift" data-lang="Swift"><span class="kd">let</span> <span class="nv">url</span> <span class="p">=</span> <span class="n">URL</span><span class="p">(</span><span class="n">string</span><span class="p">:</span><span class="s">&#34;https://docs.google.com/forms/d/e/1FAIpQLScUGRP-Pbs0bpBw2MtwjN6OpxeoHgUjloGV-OMNVOBvEkLJ6A/viewform?usp=pp_url&amp;entry.1009686721=</span><span class="si">\(</span><span class="n">os</span><span class="si">)</span><span class="s">&amp;entry.1835889012=</span><span class="si">\(</span><span class="n">version</span><span class="p">!</span><span class="si">)</span><span class="s">&#34;</span><span class="p">)</span>
 <span class="n">UIApplication</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">open</span><span class="p">(</span><span class="n">url</span><span class="p">!</span> <span class="k">as</span> <span class="n">URL</span><span class="p">)</span>
 </code></pre></div><h2 id="動作確認">動作確認</h2>
-<p><img src="./image3.png" alt="image3"></p>
+<a href='./image3.png' data-lightbox="form" ><img src='./image3.png'></img></a>
 <p>問題なく表示されています。
 ユーザーの手間を省けるので、試す価値はあると思います！</p>
     </div>
@@ -374,5 +375,11 @@
     <div class="footerContent">
         <p>Copyright © 2021 Fusion All Rights Reserved.</p>
     </div>
-</footer></body>
+</footer>
+<script type="text/javascript" src='https://luke-1220.github.io/js/lightbox.js'></script>
+<script>
+    lightbox.option({
+      'disableScrolling': true,
+    })
+</script></body>
 </html>
